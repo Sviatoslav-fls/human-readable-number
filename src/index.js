@@ -2,7 +2,6 @@ module.exports = function toReadable(number) {
 	const unitsNames = ['', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten'];
 	const teensNames = ['', 'eleven', 'twelve', 'thirteen', 'fourteen', 'fifteen', 'sixteen', 'seventeen', 'eighteen', 'nineteen']
 	const tensNames = ['', 'ten', 'twenty', 'thirty', 'forty', 'fifty', 'sixty', 'seventy', 'eighty', 'ninety'];
-	const hundred = ' hundred';
 	let numString = number.toString();
 
 	if (number === 0) {
